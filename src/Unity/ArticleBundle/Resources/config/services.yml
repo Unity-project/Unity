@@ -1,0 +1,7 @@
+parameters:
+#    unity_article.example.class: Unity\ArticleBundle\Example
+
+services:
+#    unity_article.example:
+#        class: %unity_article.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
