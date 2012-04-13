@@ -3,6 +3,7 @@
 /app/logs/*
 /vendor/
 /app/config/parameters.ini
-
 /nbproject/
 !/app/config/parameters.ini.dist
+.DS_Store
+._.DS_Store
