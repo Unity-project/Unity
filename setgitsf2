@@ -1,0 +1,15 @@
+#!/bin/bash
+touch .gitignore
+echo "/web/bundles/
+/app/bootstrap/
+/app/cache/*
+/app/logs/*
+/vendor/
+/app/config/parameters.ini
+" > .gitignore
+cp app/config/parameters.ini app/config/parameters.ini.dist
+git init
+git add .
+git commit -m "Initial Import"
+php bin/vendors install
+
