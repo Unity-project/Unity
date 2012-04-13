@@ -4,7 +4,9 @@ namespace Unity\ArticleBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
-
+/**
+ * @ignore 
+ */
 class DefaultController extends Controller
 {
     
