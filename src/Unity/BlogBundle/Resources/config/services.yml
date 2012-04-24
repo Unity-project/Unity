@@ -1,0 +1,7 @@
+parameters:
+#    unity_blog.example.class: Unity\BlogBundle\Example
+
+services:
+#    unity_blog.example:
+#        class: %unity_blog.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
