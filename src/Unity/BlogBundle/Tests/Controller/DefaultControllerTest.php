@@ -4,6 +4,9 @@ namespace Unity\BlogBundle\Tests\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 
+/**
+* @ignore
+*/
 class DefaultControllerTest extends WebTestCase
 {
     public function testIndex()
